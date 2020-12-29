@@ -1,0 +1,10 @@
+1- linguaggio Go per il web mediante uso di web server incorporato nella sua libreria standard: "net/http".
+2- uso di "html/template" anche a solo, cioè senza server.
+3- // http://localhost:81/?s=xyz
+uso di parametri e mediante essi modifica del pagina HTML
+
+uso delle sessioni dato che HTTP è stateless
+uso di https
+uso di static files serving
+
+esercizio polimi(Politecnico di Milano via amico Facebook)... di strutture dati e algoritmi richiesto di essere codificato in linguaggio C ... come sarebbe se codificato in linguaggio Go?
