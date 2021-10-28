@@ -8,10 +8,10 @@ import (
 
 func main() {
 	http.HandleFunc("/", index)
-	check(http.ListenAndServe(":81", nil))
+	check(http.ListenAndServe(":8881", nil))
 }
 
-// http://localhost:81/?s=xyz
+// http://localhost:8881/?s=xyz
 func index(w http.ResponseWriter, req *http.Request) {
 	check(templ.Execute(w, struct{ Value string }{Value: req.FormValue("s")}))
 }
